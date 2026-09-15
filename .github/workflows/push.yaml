@@ -16,7 +16,7 @@ jobs:
         run: |
           go vet ./...
 
-  depoloy:
+  deploy:
     name: Push Docker image to Dockerhub
     runs-on: ubuntu-latest
     needs: test
